@@ -1,0 +1,24 @@
+.full-screen-section {
+  min-height: 100vh;      /* Takes full height of screen */
+  display: flex;
+  align-items: center;    /* Vertically center content */
+  justify-content: center;/* Horizontally center content (optional) */
+  padding: 40px 20px;     /* Some padding */
+  box-sizing: border-box; /* Ensure padding doesn't mess up size */
+}
+
+/* Different background colors per section */
+
+
+.about-section {
+  background-color: #6D757D;  /* Slightly darker */
+}
+
+.skills-section {
+  background-color: #181D26;  /* Another dark shade */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+

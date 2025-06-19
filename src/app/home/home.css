@@ -1,0 +1,45 @@
+body {
+  background-color: #1f242d;
+  color: #fff;
+}
+
+.highlight {
+  color: #0ef;
+}
+
+.home h1 {
+  font-size: 3rem;
+}
+
+.home h3 {
+  font-size: 1.8rem;
+}
+
+.home p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.icon-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.8rem;
+  height: 2.8rem;
+  border: 1.5px solid #0ef;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  color: #0ef;
+  transition: all 0.3s ease;
+}
+
+.icon-link:hover {
+  background: #0ef;
+  color: #323948;
+  box-shadow: 0 0 0.5rem #0ef;
+}
+
+.home-img {
+  max-width: 300px;
+  width: 70%;
+}

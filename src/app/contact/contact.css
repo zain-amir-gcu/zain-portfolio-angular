@@ -1,0 +1,53 @@
+.contact-section {
+  background-color: #1f242d;
+  color: #fff;
+  padding: 2rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input.form-control,
+textarea.form-control {
+  background: #323946;
+  border: 1px solid #0ef;
+  color: #fff;
+}
+
+input.form-control:focus,
+textarea.form-control:focus {
+  border-color: #0ef;
+  box-shadow: 0 0 0.3rem #0ef;
+}
+
+.btn-info {
+  background-color: #0ef;
+  color: #1f242d;
+  border: none;
+}
+
+.btn-info:hover {
+  background-color: #0dcaf0;
+  color: #1f242d;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #ccc;  /* or #eee for even brighter */
+  opacity: 1;   /* ensure it’s not faded out */
+}
+
+input.form-control,
+textarea.form-control {
+  background: #323946;
+  border: 1px solid #0ef;
+  color: #fff;
+}
+
+input.form-control:focus::placeholder,
+textarea.form-control:focus::placeholder {
+  color: #0ef;  /* optional: change placeholder color on focus */
+}
+

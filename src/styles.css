@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+.section-full {
+  min-height: 100vh; /* Full viewport height */
+  padding: 60px 15px; /* Space around the content */
+}
+
+@media (max-width: 576px) {
+  .section-full {
+    padding: 40px 10px; /* Smaller padding on mobile */
+  }
+}
+
+html {
+  scroll-behavior: smooth; /* Smooth scrolling between sections */
+}

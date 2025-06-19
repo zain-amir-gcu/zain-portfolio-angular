@@ -1,0 +1,13 @@
+<section class="skills-section py-5 text-center" id="skills">
+  <div class="container">
+    <h2 class="mb-5 fw-bold text-info">My Skills</h2>
+    <div class="row g-4 justify-content-center">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2" *ngFor="let skill of skillList">
+        <div class="skill-card p-4">
+          <i class='bx {{ skill.icon }} skill-icon'></i>
+          <h5 class="mt-3">{{ skill.name }}</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
